@@ -59,7 +59,9 @@
    height: 65%;
  
   }
-
+.about-vec{
+   width: 50%;
+}
 }
 
 @media (max-width :952px){
@@ -73,6 +75,9 @@
     .coder{
       width: 30%;
       height: 60%;
+    }
+    .about-vec{
+      width: 40%;
     }
 }
 
@@ -104,6 +109,7 @@
    height: 60px;
    margin: 1px 60px;
   }
+ 
   
 
 }
@@ -142,11 +148,11 @@
    }
 
    .about-vec{
-      width: 5px;
-      height: 60%;
+      width: 70%;
+      height: 65%;
    }
    .about-head{
-      font-size: 10px;
+      font-size: 25px;
    }
    .coder{
       width: 45%;
@@ -177,7 +183,11 @@
 
 }
 
-@media (max-width : 652px){
+/* @media (max-width : 652px){
+  
+   
+} */
+@media (max-width : 652px) and (min-width :480px){
    .about-head{
       font-size: 25px;
    }
@@ -186,9 +196,6 @@
       height: 60%;
    }
    
-   
-}
-@media (max-width : 652px) and (min-width :480px){
 .coder{
       width: 40%;
       height: 50%;
