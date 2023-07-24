@@ -70,6 +70,10 @@
     nav ul li a{
         font-size: 15px;
     }   
+    .coder{
+      width: 30%;
+      height: 60%;
+    }
 }
 
 @media (max-width :996px){
@@ -144,8 +148,23 @@
    .about-head{
       font-size: 10px;
    }
+   .coder{
+      width: 45%;
+      height: 40%;
+   }
+   .coder h3{
+      font-size: .9rem;
+   }
+   .coder p{
+      font-size: .7em;
+   }
+   .coder img{
+      height: 80%;
+   }
+   .icon{
+      font-size: xx-small;
+   }
    
-
 }
 
 @media (min-width : 952px){
@@ -165,6 +184,27 @@
    .about-vec{
       width: 50%;
       height: 60%;
+   }
+   
+   
+}
+@media (max-width : 652px) and (min-width :480px){
+.coder{
+      width: 40%;
+      height: 50%;
+
+   }
+   .coder h3{
+      font-size: 1.5rem;
+   }
+   .coder p{
+      font-size: 0.9em;
+   }
+   .icon{
+      font-size : x-small; 
+   }
+   .coder img{
+      height: 75%;
    }
 }
 
